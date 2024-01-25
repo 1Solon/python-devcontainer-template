@@ -8,6 +8,7 @@ RUN pip install --upgrade pip
 
 # Install Jupyter Notebook
 RUN pip install jupyter
+RUN pip install ipykernel
 
 # Install production dependencies
 COPY requirements.txt /tmp/requirements.txt
